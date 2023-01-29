@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+} 
+
+
+
+.header__titulo__contenedor{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10rem;
+}
+.header__titulo{
+    background-color: antiquewhite;
+    font-style: oblique;
+    position: relative;
+    left: 6rem;    
+}
+
+.header__background{
+    opacity: 0.8;
+    background-color: antiquewhite;
+}
+
+.header__logout{
+    position: relative;
+    bottom: 8.7rem;
+    right: 1rem;
+    width: 6rem;
+    height: 3rem;
+}
+
+.header__logo{
+    width: 9rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.nombre__index{
+    position: relative;
+    top: 7rem;
+    right: 11rem;
+    font-size: 1.8rem;
+}
+
+.imagenes__posicion{
+    position: relative;
+    right: 2rem;
+}
+.left{
+    display: flex;
+    justify-content: end;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    
+}
+
+.opciones{
+    gap: 12rem;
+    position: relative;
+    left: 10rem;
+}
+
+.paddingTop{
+    padding-top: 3rem;
+}
+
+.paddingBottom{
+    padding-bottom: 3rem;
+}
+
+
+
+.btn-contenedor{
+    padding: 1.2rem;
+    position: relative;
+    left: 5rem;
+}
+.btn-tamaño{
+    width: 15rem;
+    
+}
+
+.body__suites__contenedor{
+    width: 20rem;
+    
+}
+.body__suites{
+    width: 17rem;
+    position: relative;
+    left: 5rem;
+    bottom: 1rem;
+    
+    
+}
+/* 
+.suite__basica__reservar{
+    position: relative;
+    left: 25rem;
+    top: 12rem;
+}
+
+.suite__premium__reservar{
+    position: relative;
+    left: 1.3rem;
+    top: 25rem;
+}
+
+.suite__presidencial__reservar{
+    position: relative;
+    left: 19rem;
+    top: 32rem;
+} */
+
+.habitaciones__descripcion{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 7rem;
+    bottom: 52rem;
+    gap: 5rem;
+    max-width: 67rem;
+}
+.habitaciones__descripcion{
+    max-width: 32rem;
+}
+.gap{
+    
+    padding: 1rem; 
+    
+}
+
+.body__form__centrado{
+    position: relative;
+    left: 15rem;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 33rem;
+    top: 13rem;
+}
+
+.inner{
+    border: solid 1px black;
+    border-radius: 1rem;
+    position: relative;
+    left: 32rem;
+    top: 9rem;
+    width: 50rem;
+    margin-block-end: auto;
+    background-color: #f7e2e2;
+    padding: 1rem;
+}
+
+
